@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>i hate rain</title>
+
+	<link rel="shortcut icon" href="/파비.ico" type="image/x-icon">
+	<link rel="icon" href="/파비.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="파비.ico" type="image/x-icon">
+	<link rel="icon" href="/파비.ico" type="image/x-icon">
+	
+	<style type="text/css">
+		@font-face { font-family: 'BMJUA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); font-weight: normal; font-style: normal; }
+	body, h1, p{margin: 0; padding: 0; font-family: 'BMJUA'; }
+	#back{background: url(./back.png); background-size: cover; background-attachment: fixed; }
+	.map2{height:10%;}
+	.wrap{width: 100%; height:100%;   }
+
+	h1{text-align: center;line-height: 1.5;margin: 30px 0; color:white; 
+		text-shadow: -3px 0 black, 0 4px black, 4px 0 black, 0 -4px black; font-size: 3.1em;}
+	.pan2{position: absolute; width: 70%; left: 13%; z-index: 997; }
+
+
+	.chat50{z-index: 999; position: absolute; width: 10%; left: 22%; margin-top: 9%;}
+	
+	.mole{  float: left; width: 48%; height: 15%; margin: 0.7%; overflow: hidden; cursor: pointer; border-radius: 15px; background: #f3f3f3; left: 30%; z-index: 999;}
+
+	.mole >img{ position: relative; align-items: center; display: block; width: 100%; 
+		height: 98%; opacity: 1; z-index: 999;}
+
+	.whack-a-mole {background:#cecece; margin: 10px auto; padding: 20px; list-style: none; width: 53%;height: 71%; border-radius: 20px; left: 21%; margin-top: 12%; }
+	.mole:hover{opacity: 0.7;}
+	.nb:hover{opacity: 0.7;}
+
+	 #img4{z-index: 9999; width: 12.5%; margin-top:57%; left:87%;  cursor: pointer; position: absolute;}
+        #img4:hover{opacity: 0.5;}
+
+	</style>
+</head>
+
+<body id="back">
+	<section class="map2">
+	</section>
+
+	<section class="wrap">
+		<h1>달라진 댓글들을 클릭해서 확인해보세요!</h1>
+
+			<img src="images/back2.png" class="pan2">
+			<img src="images/chat.png" class="chat50">
+			<a href="./index3.html">  <img class="nb" src="images/next.png" style="z-index: 9999; position: absolute; margin-top: 55%; width: 7%; left: 45%; "></a>
+			<a href="https://hk-jiheekim.github.io/i-hate-rain_part1/"><img src="images/logo.png" class="lo" id="img4"></a>
+
+			
+			<div class="pan"></div>
+
+		<ul class="whack-a-mole clearfix" style="z-index: 997; position: absolute;" >
+      	 <li class="mole" >
+       		 <img id="ch1" src="images/chat1.png">
+     	 </li>
+     	
+     	 <li class="mole">
+       		 <img id="ch2" src="images/chat2.png">
+     	 </li>
+
+     	 <li class="mole">
+       		 <img id="ch3" src="images/chat3.png">
+    	  </li>
+
+     	 <li class="mole">
+       		 <img id="ch4" src="images/chat4.png">
+      	</li>
+     
+     	<li class="mole" >
+        	<img id="ch5" src="images/chat5.png">
+      	</li>
+      
+      	<li class="mole">
+        	<img id="ch6" src="images/chat6.png">
+      	</li>
+      
+      	<li class="mole">
+        	<img id="ch7" src="images/chat7.png">
+      	</li>
+      
+      	<li class="mole">
+        	<img id="ch8" src="images/chat8.png">
+      	</li>
+       
+       	<li class="mole" >
+        	<img id="ch9" src="images/chat9.png">
+      	</li>
+      	
+      	<li class="mole">
+        	<img id="ch10" src="images/chat10.png">
+      	</li>
+      	
+      	<li class="mole">
+        	<img id="ch11" src="images/chat11.png">
+      	</li>
+      	
+      	<li class="mole">
+        	<img id="ch12" src="images/chat12.png">
+      	</li>
+  
+    </ul>
+	</section>
+
+	<section class="map2">
+	</section>
+
+	<script type="text/javascript">
+		var ch1state ="off";
+		ch1.onclick=function(){
+			if(ch1state =="off"){
+			ch1.src = "images/chat1_1.png";
+			ch1state = "on";}
+			else{
+				ch1.src = "images/chat1.png";
+				ch1state = "off";}}
+
+		var ch2state ="off";
+		ch2.onclick=function(){
+			if(ch2state =="off"){
+			ch2.src = "images/chat2_2.png";
+			ch2state = "on";}
+			else{
+				ch2.src = "images/chat2.png";
+				ch2state = "off";}}
+
+		var ch3state ="off";
+		ch3.onclick=function(){
+			if(ch3state =="off"){
+			ch3.src = "images/chat3_3.png";
+			ch3state = "on";}
+			else{
+				ch3.src = "images/chat3.png";
+				ch3state = "off";}}
+
+		var ch4state ="off";
+		ch4.onclick=function(){
+			if(ch4state =="off"){
+			ch4.src = "images/chat4_4.png";
+			ch3state = "on";}
+			else{
+				ch4.src = "images/chat4.png";
+				ch4state = "off";}}
+
+		var ch5state ="off";
+		ch5.onclick=function(){
+			if(ch5state =="off"){
+			ch5.src = "images/chat5_5.png";
+			ch5state = "on";}
+			else{
+				ch5.src = "images/chat5.png";
+				ch5state = "off";}}
+
+		var ch6state ="off";
+		ch6.onclick=function(){
+			if(ch6state =="off"){
+			ch6.src = "images/chat6_6.png";
+			ch6state = "on";}
+			else{
+				ch6.src = "images/chat6.png";
+				ch6state = "off";}}
+
+		var ch7state ="off";
+		ch7.onclick=function(){
+			if(ch7state =="off"){
+			ch7.src = "images/chat7_7.png";
+			ch7state = "on";}
+			else{
+				ch7.src = "images/chat7.png";
+				ch7state = "off";}}
+
+		var ch8state ="off";
+		ch8.onclick=function(){
+			if(ch8state =="off"){
+			ch8.src = "images/chat8_8.png";
+			ch8state = "on";}
+			else{
+				ch8.src = "images/chat8.png";
+				ch8state = "off";}}
+
+		var ch9state ="off";
+		ch9.onclick=function(){
+			if(ch9state =="off"){
+			ch9.src = "images/chat9_9.png";
+			ch9state = "on";}
+			else{
+				ch9.src = "images/chat9.png";
+				ch9state = "off";}}
+
+		var ch10state ="off";
+		ch10.onclick=function(){
+			if(ch10state =="off"){
+			ch10.src = "images/chat10_10.png";
+			ch10state = "on";}
+			else{
+				ch10.src = "images/chat10.png";
+				ch10state = "off";}}
+
+		var ch11state ="off";
+		ch11.onclick=function(){
+			if(ch11state =="off"){
+			ch11.src = "images/chat11_11.png";
+			ch11state = "on";}
+			else{
+				ch11.src = "images/chat11.png";
+				ch11state = "off";}}
+
+		var ch12state ="off";
+		ch12.onclick=function(){
+			if(ch12state =="off"){
+			ch12.src = "images/chat12_12.png";
+			ch12state = "on";}
+			else{
+				ch12.src = "images/chat12.png";
+				ch12state = "off";}}
+	</script>
+
+</body>
+</html>
