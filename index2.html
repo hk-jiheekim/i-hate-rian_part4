@@ -136,7 +136,7 @@ function startMole(){
   startBtn.style.color = '#3d3f43';
   getPoint = 0;
   turn = 0;
-  setTimeout(showingMole, 3000);
+  setTimeout(showingMole, 2100);
 
 }
 
@@ -162,7 +162,7 @@ function showingMole(){
     moleNumber = document.getElementById(`${randomHole()}`);
     moleActive(moleNumber);
     moleNumber.addEventListener('click', catchMole);
-    moleCatch = setTimeout(seeMOle, 850);
+    moleCatch = setTimeout(seeMOle, 820);
     turn++;
   }else{
     modalEvent();
@@ -177,7 +177,7 @@ function seeMOle(){
   moleNumber.removeEventListener('click', catchMole);
   moleHide(moleNumber);
   clearTimeout(moleCatch);
-  setTimeout(showingMole, 3000);
+  setTimeout(showingMole, 2100);
 }
 
 function catchMole(){
