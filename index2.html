@@ -27,7 +27,7 @@
      #img4{z-index: 9999; width: 12.5%; margin-top:64%; left:87%;  cursor: pointer; position: absolute;}
         #img4:hover{opacity: 0.5;}
 
-        .of1{position: absolute; width:4%; z-index: 999; margin-top: -1%; left:17%; cursor: pointer;  z-index: 999;}
+        .of1{position: absolute; width:4%; z-index: 999; margin-top: -1%; left:18%; cursor: pointer;  z-index: 999;}
         .of1:hover{opacity: 0.5;}
 
      @keyframes nbo{
@@ -98,13 +98,14 @@
       </li>
   
     </ul>
+      <button type="button" class="start-btn">시작</button>
       <center><div class="btn-wrap" style="z-index: 999; position: absolute;">
         <div class="point-wrap">
         <p id="point-text">Point :</p>
         <p id="count-mole">0</p>
         <p id="count-mole2">/ 20</p>
       </div>
-        <button type="button" class="start-btn">시작</button>
+      
       </div>
   </div>
   </center>
@@ -136,7 +137,7 @@ function startMole(){
   getPoint = 0;
   turn = 0;
   setTimeout(showingMole, 3000);
-  song.play();
+
 }
 
 function randomHole(){
